@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webpack home</title>
+	<link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+</head>
+<body>
+	<!-- <link rel="stylesheet" type="text/css" href="dist/style.css"> -->
+	<h1>Welcome</h1>
+	<div class="test">
+		
+	</div>
+	<!-- <script type="text/javascript" src="dist/bundle.js"></script> -->
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>">
+</body>
+</html>
